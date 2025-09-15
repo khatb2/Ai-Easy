@@ -1,0 +1,520 @@
+
+{
+  "appName": "Ai easy",
+  "meta": {
+    "title": "Ai easy - Simple PDF & Image Tools",
+    "description": "Manage, convert, compress your files and AI tools — all in one place."
+  },
+  "header": {
+    "home": "Home",
+    "tools": "Tools",
+    "about": "About"
+  },
+  "hero": {
+    "title": "Simple PDF & Image Tools",
+    "subtitle": "Manage, convert, compress your files and AI tools — all in one place.",
+    "cta": "Get Started",
+    "typewriter": {
+      "text1": "Get Started Now",
+      "text2": "Create Your Tools",
+      "text3": "Convert PDF to High-Quality Images",
+      "text4": "Merge PDF Files Easily",
+      "text5": "Convert Images to PDF",
+      "text6": "Compress PDFs to Reduce Size"
+    }
+  },
+  "tools": {
+    "title": "All The Tools You Need",
+    "subtitle": "A comprehensive suite of tools to handle any PDF and image task, right in your browser.",
+    "searchPlaceholder": "Search for a tool...",
+    "buttonText": "Use Tool",
+    "noResults": "No tools found. Try searching for a different term.",
+    "tooltip": "{category} Tool",
+    "showMore": "Show More",
+    "showLess": "Show Less",
+    "list": [
+      { "title": "Compress PDF", "description": "Efficiently reduce PDF file size", "icon": "FileSliders", "category": "optimize" },
+      { "title": "Add Page Numbers", "description": "Automatically number all pages", "icon": "ListOrdered", "category": "edit" },
+      { "title": "Remove Pages", "description": "Delete specific pages from a PDF", "icon": "FileMinus2", "category": "organize" },
+      { "title": "Split PDF", "description": "Split a large PDF into multiple files", "icon": "Scissors", "category": "organize" },
+      { "title": "Merge PDF", "description": "Combine multiple PDFs into one", "icon": "Merge", "category": "organize" },
+      { "title": "Extract Pages", "description": "Extract specific pages into a new PDF", "icon": "FileOutput", "category": "organize" },
+      { "title": "Rotate PDF", "description": "Rotate pages to the left or right", "icon": "RotateCw", "category": "edit" },
+      { "title": "PDF to JPG", "description": "Convert PDF pages to images (JPG/PNG)", "icon": "FileImage", "category": "convert" },
+      { "title": "Image to PDF", "description": "Combine multiple images into one PDF", "icon": "Images", "category": "convert" },
+      { "title": "PDF OCR", "description": "Extract searchable text from scanned PDFs", "icon": "ScanText", "category": "optimize" },
+      { "title": "Crop PDF", "description": "Crop the margins of PDF pages", "icon": "Crop", "category": "edit" },
+      { "title": "Extract Text", "description": "Extract all text from a PDF", "icon": "ClipboardType", "category": "other" },
+      { "title": "Organize PDF", "description": "Reorder or delete PDF pages", "icon": "Layers", "category": "organize" },
+      { "title": "Word Counter", "description": "Count the words and characters in a text or document.", "icon": "Calculator", "category": "other" },
+      { "title": "Compress Image", "description": "Compress various image files", "icon": "Shrink", "category": "other" },
+      { "title": "Blur Image", "description": "Apply a blur effect to parts of an image", "icon": "Aperture", "category": "other" },
+      { "title": "Translate PDF", "description": "Translate text in a PDF to other languages", "icon": "Languages", "category": "other" },
+      { "title": "QR Code Generator", "description": "Generate custom QR codes for URLs, text, and more.", "icon": "QrCode", "category": "other" }
+    ]
+  },
+  "footer": {
+    "copyright": "{appName}. All rights reserved.",
+    "help": "Help",
+    "terms": "Terms",
+    "privacy": "Privacy"
+  },
+  "helpPage": {
+    "title": "Help Center",
+    "content": "Need help? We're here for you. If you encounter any issues or have questions about our tools, please contact our support team via email. We strive to respond to all inquiries within 24 hours."
+  },
+  "termsPage": {
+    "title": "Terms of Service",
+    "content": "By using our service, you are agreeing to these terms. Please read them carefully. Our services are provided 'as is' without any warranties. We assume no liability for any data loss or damage that may occur from using our tools. You are responsible for ensuring you have adequate backups of your files."
+  },
+  "privacyPage": {
+    "title": "Privacy Policy",
+    "content": "Your privacy is important to us. We do not store your files on our servers. All processing is done directly in your browser. We do not collect any personal information from you. We may use essential cookies to enhance your experience on our site, but we do not track you across other websites."
+  },
+  "rotatePdfPage": {
+    "title": "Rotate PDF",
+    "subtitle": "Easily rotate your PDF files",
+    "selectButton": "Select PDF file",
+    "optionsTitle": "Rotation Options",
+    "selectAll": "Select All",
+    "deselectAll": "Deselect All",
+    "rotate90": "Rotate 90°",
+    "rotate180": "Rotate 180°",
+    "rotate270": "Rotate 270°",
+    "downloadButton": "Download",
+    "restartButton": "Start Over",
+    "loading": "Loading pages...",
+    "pageLabel": "Page {id}"
+  },
+  "jpgToPdfPage": {
+    "title": "Image to PDF",
+    "subtitle": "Easily convert images to PDF files",
+    "selectButton": "Select Images",
+    "optionsTitle": "PDF Options",
+    "orientation": "Page Orientation",
+    "portrait": "Portrait",
+    "landscape": "Landscape",
+    "pageSize": "Page Size",
+    "fit": "Fit (same size as image)",
+    "a4": "A4",
+    "usLetter": "US Letter",
+    "margin": "Margin",
+    "noMargin": "No margin",
+    "smallMargin": "Small margin",
+    "bigMargin": "Big margin",
+    "merge": "Merge all images into one PDF file",
+    "downloadButton": "Download PDF",
+    "restartButton": "Start Over",
+    "loading": "Converting...",
+    "addMore": "Add more images"
+  },
+  "pngToPdfPage": {
+    "title": "Image to PDF",
+    "subtitle": "Easily convert images to PDF files",
+    "selectButton": "Select images",
+    "optionsTitle": "PDF Options",
+    "orientation": "Page Orientation",
+    "portrait": "Portrait",
+    "landscape": "Landscape",
+    "pageSize": "Page Size",
+    "fit": "Fit (same size as image)",
+    "a4": "A4",
+    "usLetter": "US Letter",
+    "margin": "Margin",
+    "noMargin": "No margin",
+    "smallMargin": "Small margin",
+    "bigMargin": "Big margin",
+    "merge": "Merge all images into one PDF file",
+    "downloadButton": "Download PDF",
+    "restartButton": "Start Over",
+    "loading": "Converting...",
+    "addMore": "Add more images"
+  },
+  "pdfToJpgPage": {
+    "title": "PDF to JPG",
+    "subtitle": "Convert each PDF page into a JPG image",
+    "selectButton": "Select PDF file",
+    "optionsTitle": "JPG Options",
+    "quality": "Image Quality",
+    "normal": "Normal",
+    "high": "High",
+    "downloadButton": "Download JPG images",
+    "restartButton": "Start Over",
+    "loading": "Converting...",
+    "pageLabel": "Page {id}",
+    "selectAll": "Select All",
+    "deselectAll": "Deselect All"
+  },
+  "addPageNumbersPage": {
+    "title": "Add Page Numbers to PDF",
+    "subtitle": "Easily add page numbers to your PDF files",
+    "selectButton": "Select PDF file",
+    "optionsTitle": "Numbering options",
+    "mode": "Mode",
+    "singlePage": "Single page",
+    "facingPages": "Facing pages",
+    "position": "Position",
+    "positions": {
+      "bottomRight": "Bottom Right",
+      "bottomLeft": "Bottom Left",
+      "bottomCenter": "Bottom Center",
+      "topRight": "Top Right",
+      "topLeft": "Top Left",
+      "topCenter": "Top Center",
+      "middleRight": "Middle Right",
+      "middleLeft": "Middle Left",
+      "middleCenter": "Middle Center"
+    },
+    "margin": "Margin",
+    "margins": {
+      "small": "Small",
+      "medium": "Medium",
+      "big": "Big"
+    },
+    "pagesToNumber": "Pages to number",
+    "startFrom": "Start from",
+    "format": "Format",
+    "formats": {
+      "pageN": "Page {n}",
+      "pageNofP": "Page {n} of {p}",
+      "custom": "Custom"
+    },
+    "formatHint": "Use {n} for page number, and {p} for total pages",
+    "textStyle": "Text style",
+    "downloadButton": "Add page numbers",
+    "restartButton": "Start Over",
+    "loading": "Loading...",
+    "pageLabel": "Page {id}"
+  },
+  "extractTextPage": {
+    "title": "Extract Text from PDF",
+    "subtitle": "Extract all text content from your PDF file.",
+    "downloadAll": "Download All (ZIP)",
+    "copied": "Copied text from page",
+    "extracting": "Extracting texts...",
+    "noTextOnPage": "No extractable text on this page.",
+    "noTextFound": "No Text Found",
+    "noTextFoundDescription": "No extractable text was found in this file.",
+    "errorTitle": "Error",
+    "errorDescription": "Failed to extract text from the PDF."
+  },
+  "pdfOcrPage": {
+    "title": "PDF OCR",
+    "subtitle": "Extract text from scanned PDF files with precision.",
+    "selectButton": "Select PDF File",
+    "downloadButton": "Download Texts",
+    "restartButton": "Start Over",
+    "processing": "Processing...",
+    "pageLabel": "Page {id}",
+    "copied": "Copied text from page",
+    "downloadAll": "Download All (ZIP)",
+    "errorTitle": "Error Processing Page",
+    "errorDescription": "An error occurred while extracting text from this page.",
+    "alertTitle": "Important Note",
+    "alertDescription": "This tool uses AI and may take a moment to process each page. Accuracy can vary based on the original document's quality."
+  },
+  "splitPdfPage": {
+    "title": "Split PDF",
+    "subtitle": "Divide a PDF, extract specific pages.",
+    "selectButton": "Select PDF File",
+    "restartButton": "Change File",
+    "loading": "Loading...",
+    "pageLabel": "Page {id}",
+    "sidebar": {
+      "pages": "pages",
+      "toolsButton": "Split Tools"
+    },
+    "modes": {
+      "extract": {
+        "title": "Extract",
+        "description": "Select the pages you want to extract into a new PDF. You can use <b>Shift-Click</b> to select a range.",
+        "selectAll": "Select All",
+        "deselectAll": "Deselect All",
+        "selectedInfo": "{count} pages selected",
+        "notSelected": "No pages selected",
+        "buttonText": "Extract"
+      },
+      "range": {
+        "title": "Split by range",
+        "description": "Define page ranges to create multiple PDFs. You can also <b>click on pages</b> to define ranges.",
+        "label": "Define ranges",
+        "placeholder": "e.g. 1-3, 5, 8-10",
+        "addRangeButton": "Add another range",
+        "buttonText": "Split by Range"
+      },
+      "fixed": {
+        "title": "Fixed split",
+        "description": "Split the PDF into multiple files, each with a fixed number of pages.",
+        "labelPrefix": "Split every",
+        "labelSuffix": "pages",
+        "buttonText": "Split"
+      }
+    },
+    "error": {
+      "genericTitle": "Error",
+      "invalidFileTitle": "Invalid File",
+      "invalidFileDescription": "Please select a valid PDF file.",
+      "loadErrorTitle": "File Load Error",
+      "loadErrorDescription": "Could not load the PDF. Please ensure the file is valid.",
+      "aiError": "An error occurred while contacting the AI service.",
+      "emptyPdf": "Cannot create an empty PDF. Please check your ranges or selection.",
+      "splitFailedTitle": "Split Failed",
+      "splitFailedDescription": "An unexpected error occurred while splitting the file.",
+      "noPagesTitle": "No pages selected",
+      "noPagesDescription": "Please select at least one page to extract.",
+      "invalidRange": "Please enter at least one valid range.",
+      "invalidFixedNumber": "Please enter a valid number greater than zero."
+    },
+    "success": {
+      "title": "Success!",
+      "description": "The PDF was split into {count} file(s)."
+    }
+  },
+   "extractPagesPage": {
+    "title": "Extract PDF Pages",
+    "subtitle": "Select and extract specific pages into a new document.",
+    "selectButton": "Select PDF File",
+    "restartButton": "Change File",
+    "loading": "Loading...",
+    "pageLabel": "Page {id}",
+    "sidebar": {
+      "pages": "pages",
+      "toolsButton": "Extract Tools"
+    },
+    "modes": {
+      "extract": {
+        "title": "Extract",
+        "description": "Select the pages you want to extract into a new PDF. You can use <b>Shift-Click</b> to select a range.",
+        "selectAll": "Select All",
+        "deselectAll": "Deselect All",
+        "selectedInfo": "{count} pages selected",
+        "notSelected": "No pages selected",
+        "buttonText": "Extract Pages"
+      }
+    },
+    "error": {
+      "genericTitle": "Error",
+      "invalidFileTitle": "Invalid File",
+      "invalidFileDescription": "Please select a valid PDF file.",
+      "loadErrorTitle": "File Load Error",
+      "loadErrorDescription": "Could not load the PDF. Please ensure the file is valid.",
+      "aiError": "An error occurred while contacting the AI service.",
+      "emptyPdf": "Cannot create an empty PDF. Please check your ranges or selection.",
+      "splitFailedTitle": "Extraction Failed",
+      "splitFailedDescription": "An unexpected error occurred while extracting the pages.",
+      "noPagesTitle": "No pages selected",
+      "noPagesDescription": "Please select at least one page to extract.",
+      "invalidRange": "Please enter at least one valid range.",
+      "invalidFixedNumber": "Please enter a valid number greater than zero."
+    },
+    "success": {
+      "title": "Success!",
+      "description": "Successfully created {count} new PDF document(s)."
+    }
+  },
+  "mergePdfPage": {
+    "title": "Merge PDF",
+    "subtitle": "Combine multiple PDFs into a single, organized file.",
+    "selectButton": "Select PDF files",
+    "restartButton": "Start Over",
+    "addButton": "Add more files",
+    "downloadButton": "Merge PDFs",
+    "loading": "Merging...",
+    "dropzone": "or drag & drop PDFs here",
+    "pageCount": "page",
+    "pageCounts": "pages"
+  },
+  "organizePdfPage": {
+    "title": "Organize PDF",
+    "description": "Reorder, delete, add, or rotate pages.",
+    "button": "Organize PDF",
+    "blankPage": "Blank Page"
+  },
+  "editPdfPage": {
+    "warning": {
+      "title": "Limited Arabic Support",
+      "description": "Arabic language support is currently limited. Text may not render correctly. Using English is recommended."
+    }
+  },
+  "cropPdfPage": {
+    "title": "Crop PDF",
+    "subtitle": "Easily crop the margins of your PDF pages.",
+    "previous": "Previous",
+    "next": "Next",
+    "pageIndicator": "Page {current} of {total}",
+    "zoom": "Zoom",
+    "applyTo": {
+      "label": "Apply crop to",
+      "all": "All pages",
+      "current": "Current page ({page})",
+      "range": "Custom range",
+      "placeholder": "e.g. 1-3,5"
+    },
+    "resetSelection": "Reset Crop Selection",
+    "cropButton": "Crop PDF",
+    "startOver": "Start Over",
+    "success": {
+      "title": "Success",
+      "description": "PDF cropped successfully."
+    },
+    "errors": {
+      "readError": "Could not read the PDF file.",
+      "noCropAreaTitle": "No Crop Area",
+      "noCropAreaDescription": "Please select an area to crop first.",
+      "cropError": "Failed to crop the PDF."
+    }
+  },
+  "wordCounter": {
+    "title": "Word Counter",
+    "description": "Count the words and characters in your text or document.",
+    "placeholder": "Paste your text here or upload a file...",
+    "uploadButton": "Upload file (txt, pdf)",
+    "words": "Words",
+    "characters": "Characters",
+    "readingTime": "Reading Time",
+    "minute": "minute",
+    "minutes": "minutes",
+    "copied": "Copied text to clipboard!",
+    "errors": {
+      "unsupportedFile": "Unsupported file type. Please upload a .txt or .pdf file.",
+      "fileReadError": "An error occurred while reading the file.",
+      "pdfError": "Failed to process the PDF file."
+    },
+    "statsTitle": "Statistics",
+    "copyText": "Copy Text",
+    "clearText": "Clear Text"
+  },
+  "translatePdfPage": {
+    "title": "Translate PDF",
+    "description": "Extract text from each page and translate it to other languages.",
+    "targetLanguage": "Translate to:",
+    "translateButton": "Translate"
+  },
+  "compressImagePage": {
+    "title": "Compress Images",
+    "subtitle": "Compress and convert images to reduce their file size.",
+    "selectButton": "Select Images",
+    "sidebarTitle": "Compression Options",
+    "quality": "Quality",
+    "format": "Output Format",
+    "compressButton": "Compress Images",
+    "downloadAllButton": "Download All (ZIP)",
+    "downloadButton": "Download",
+    "startOverButton": "Start Over",
+    "addMoreButton": "Add More Images",
+    "original": "Original",
+    "compressed": "Compressed",
+    "reduction": "Reduction"
+  },
+  "blurImage": {
+    "addShapes": "Add Blur Shapes",
+    "shapeRectangle": "Rectangle",
+    "shapeCircle": "Circle",
+    "shapeControls": "Shape Controls",
+    "clearSelected": "Delete Selected",
+    "duplicate": "Duplicate Selected",
+    "blurAmount": "Global Blur Amount",
+    "selectedBlurAmount": "Selected Shape Blur",
+    "generalControls": "General Controls",
+    "changeImage": "Change Image",
+    "clearAll": "Clear All",
+    "applyButton": "Apply & Download"
+  },
+  "protectPdfPage": {
+    "title": "Protect PDF",
+    "description": "Secure your PDF with a password.",
+    "selectButton": "Select PDF File",
+    "buttonText": "Protect PDF",
+    "passwordLabel": "Password",
+    "confirmPasswordLabel": "Confirm Password",
+    "errors": {
+      "passwordRequired": "Password is required.",
+      "passwordMismatch": "Passwords do not match.",
+      "protectionFailed": "Failed to protect the PDF.",
+      "alreadyProtectedTitle": "File Already Protected",
+      "alreadyProtectedDescription": "This file is already password protected."
+    },
+    "success": {
+      "title": "Success!",
+      "description": "Your PDF has been successfully protected."
+    }
+  },
+    "unlockPdfPage": {
+    "title": "Unlock PDF",
+    "description": "Remove the password from a PDF.",
+    "selectButton": "Select PDF File",
+    "buttonText": "Unlock PDF",
+    "passwordLabel": "Password",
+    "errors": {
+      "unlockFailed": "Failed to unlock PDF.",
+      "wrongPassword": "The password you entered is incorrect."
+    },
+    "success": {
+      "title": "Success!",
+      "description": "PDF has been successfully unlocked."
+    }
+  },
+  "compressPdfPage": {
+    "compressionLevel": "Compression Level",
+    "levels": {
+      "low": {
+        "title": "Low Compression",
+        "description": "High quality, larger size."
+      },
+      "medium": {
+        "title": "Medium Compression",
+        "description": "Good quality, balanced size."
+      },
+      "high": {
+        "title": "High Compression",
+        "description": "Lower quality, smallest size."
+      }
+    },
+    "compressButton": "Compress PDF",
+    "successTitle": "Success!",
+    "successDescription": "PDF compressed successfully.",
+    "errorTitle": "Compression Error",
+    "originalSize": "Original Size",
+    "newSize": "New Size",
+    "reduction": "Reduction",
+    "downloadButton": "Download Compressed PDF"
+  },
+  "qrCodeGenerator": {
+    "optionsTitle": "QR Code Settings",
+    "customization": "Appearance",
+    "typeLabel": "QR Code Type",
+    "fgColor": "Foreground Color",
+    "bgColor": "Background Color",
+    "quality": "Quality",
+    "qualities": {
+      "L": "Low",
+      "M": "Medium",
+      "Q": "Good",
+      "H": "High"
+    },
+    "downloadButton": "Download QR Code",
+    "noQrCode": "QR Code will appear here once you enter data.",
+    "types": {
+      "text": { "title": "Text", "label": "Text" },
+      "url": { "title": "URL", "label": "Website URL" },
+      "wifi": { "title": "WiFi", "ssid": "Network Name (SSID)", "password": "Password", "encryption": "Encryption", "noEncryption": "None" },
+      "email": { "title": "Email", "to": "To", "subject": "Subject", "body": "Body" },
+      "sms": { "title": "SMS", "phone": "Phone Number", "message": "Message" },
+      "tel": { "title": "Phone Call", "label": "Phone Number" },
+      "geo": {
+        "title": "Geolocation",
+        "latlon": "Latitude, Longitude",
+        "detectButton": "Detect My Location",
+        "detecting": "Detecting..."
+      }
+    },
+    "errors": {
+      "geolocationNotSupportedTitle": "Geolocation Not Supported",
+      "geolocationNotSupportedDescription": "Your browser does not support the Geolocation API.",
+      "geolocationErrorTitle": "Geolocation Error",
+      "geolocationErrorDescription": "Could not get your location. Please ensure location permissions are enabled."
+    }
+  }
+}
+
+    

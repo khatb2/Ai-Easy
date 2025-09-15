@@ -1,0 +1,520 @@
+
+{
+  "appName": "Ai easy",
+  "meta": {
+    "title": "Ai easy - أدوات بسيطة لملفات PDF والصور",
+    "description": "إدارة وتحويل وضغط ملفاتك وادوات الذكاء الاصطناعي — كل ذلك في مكان واحد"
+  },
+  "header": {
+    "home": "الرئيسية",
+    "tools": "الأدوات",
+    "about": "حول"
+  },
+  "hero": {
+    "title": "أدوات بسيطة لملفات PDF والصور",
+    "subtitle": "إدارة وتحويل وضغط ملفاتك وادوات الذكاء الاصطناعي — كل ذلك في مكان واحد",
+    "cta": "ابدأ الآن",
+    "typewriter": {
+      "text1": "ابدأ الآن",
+      "text2": "اصنع أدواتك",
+      "text3": "تحويل PDF إلى صور عالية الجودة",
+      "text4": "دمج ملفات PDF بسهولة",
+      "text5": "تحويل الصور إلى PDF",
+      "text6": "ضغط ملفات PDF لتقليل الحجم"
+    }
+  },
+  "tools": {
+    "title": "كل الأدوات التي تحتاجها",
+    "subtitle": "مجموعة شاملة من الأدوات للتعامل مع أي مهمة تتعلق بملفات PDF والصور، مباشرة في متصفحك.",
+    "searchPlaceholder": "ابحث عن أداة...",
+    "buttonText": "استخدم الأداة",
+    "noResults": "لم يتم العثور على أي أدوات. حاول البحث بمصطلح مختلف.",
+    "tooltip": "أداة {category}",
+    "showMore": "عرض المزيد",
+    "showLess": "عرض أقل",
+    "list": [
+      { "title": "ضغط PDF", "description": "تقليل حجم ملف PDF بكفاءة", "icon": "FileSliders", "category": "optimize" },
+      { "title": "إضافة أرقام الصفحات", "description": "ترقيم جميع الصفحات تلقائيًا", "icon": "ListOrdered", "category": "edit" },
+      { "title": "إزالة الصفحات", "description": "حذف صفحات محددة من ملف PDF", "icon": "FileMinus2", "category": "organize" },
+      { "title": "تقسيم PDF", "description": "تقسيم ملف PDF كبير إلى ملفات متعددة", "icon": "Scissors", "category": "organize" },
+      { "title": "دمج PDF", "description": "دمج عدة ملفات PDF في ملف واحد", "icon": "Merge", "category": "organize" },
+      { "title": "استخراج الصفحات", "description": "استخراج صفحات معينة في ملف PDF جديد", "icon": "FileOutput", "category": "organize" },
+      { "title": "تدوير PDF", "description": "تدوير الصفحات إلى اليسار أو اليمين", "icon": "RotateCw", "category": "edit" },
+      { "title": "تحويل PDF إلى JPG", "description": "تحويل صفحات PDF إلى صور (JPG/PNG)", "icon": "FileImage", "category": "convert" },
+      { "title": "تحويل صورة إلى PDF", "description": "دمج صور متعددة في ملف PDF واحد", "icon": "Images", "category": "convert" },
+      { "title": "التعرف الضوئي على الحروف في PDF", "description": "استخراج نص قابل للبحث من ملفات PDF الممسوحة ضوئيًا", "icon": "ScanText", "category": "optimize" },
+      { "title": "قص PDF", "description": "قص هوامش صفحات PDF", "icon": "Crop", "category": "edit" },
+      { "title": "استخراج النص", "description": "استخراج كل النصوص من ملف PDF", "icon": "ClipboardType", "category": "other" },
+      { "title": "تنظيم PDF", "description": "إعادة ترتيب صفحات PDF أو حذفها", "icon": "Layers", "category": "organize" },
+      { "title": "عدّاد الكلمات", "description": "حساب عدد الكلمات في ملف PDF أو نص", "icon": "Calculator", "category": "other" },
+      { "title": "ضغط الصور", "description": "ضغط ملفات الصور المختلفة", "icon": "Shrink", "category": "other" },
+      { "title": "طمس الصورة", "description": "إضافة تأثير التمويه على أجزاء من الصورة", "icon": "Aperture", "category": "other" },
+      { "title": "ترجمة PDF", "description": "ترجمة النص في ملف PDF إلى لغات أخرى", "icon": "Languages", "category": "other" },
+      { "title": "مولد رمز الاستجابة السريعة", "description": "إنشاء رموز QR مخصصة للروابط والنصوص والمزيد.", "icon": "QrCode", "category": "other" }
+    ]
+  },
+  "footer": {
+    "copyright": "{appName}. جميع الحقوق محفوظة.",
+    "help": "المساعدة",
+    "terms": "الشروط",
+    "privacy": "الخصوصية"
+  },
+  "helpPage": {
+    "title": "مركز المساعدة",
+    "content": "تحتاج مساعدة؟ نحن هنا لدعمك. إذا واجهت أي مشاكل أو كان لديك أسئلة حول أدواتنا، يرجى التواصل مع فريق الدعم لدينا عبر البريد الإلكتروني. نسعى جاهدين للرد على جميع الاستفسارات في غضون 24 ساعة."
+  },
+  "termsPage": {
+    "title": "شروط الخدمة",
+    "content": "باستخدام خدماتنا، فإنك توافق على هذه الشروط. يرجى قراءتها بعناية. خدماتنا مقدمة \"كما هي\" دون أي ضمانات. نحن لا نتحمل أي مسؤولية عن أي فقدان للبيانات أو تلف قد يحدث نتيجة لاستخدام أدواتنا. أنت مسؤول عن ضمان أن لديك نسخ احتياطية كافية من ملفاتك."
+  },
+  "privacyPage": {
+    "title": "سياسة الخصوصية",
+    "content": "خصوصيتك مهمة بالنسبة لنا. نحن لا نقوم بتخزين ملفاتك على خوادمنا. تتم جميع عمليات المعالجة مباشرة في متصفحك. نحن لا نجمع أي معلومات شخصية منك. قد نستخدم ملفات تعريف الارتباط الأساسية لتحسين تجربتك على موقعنا، ولكننا لا نتتبعك عبر مواقع الويب الأخرى."
+  },
+  "rotatePdfPage": {
+    "title": "تدوير ملفات PDF",
+    "subtitle": "يمكنك تدوير ملفات PDF بسهولة",
+    "selectButton": "اختر ملف PDF",
+    "optionsTitle": "خيارات التدوير",
+    "selectAll": "تحديد الكل",
+    "deselectAll": "إلغاء تحديد الكل",
+    "rotate90": "تدوير 90 درجة",
+    "rotate180": "تدوير 180 درجة",
+    "rotate270": "تدوير 270 درجة",
+    "downloadButton": "تحميل",
+    "restartButton": "إعادة البدء",
+    "loading": "جاري تحميل الصفحات...",
+    "pageLabel": "صفحة {id}"
+  },
+  "jpgToPdfPage": {
+    "title": "تحويل الصور إلى PDF",
+    "subtitle": "تحويل الصور إلى ملفات PDF بسهولة",
+    "selectButton": "اختر الصور",
+    "optionsTitle": "خيارات PDF",
+    "orientation": "اتجاه الصفحة",
+    "portrait": "عمودي",
+    "landscape": "أفقي",
+    "pageSize": "حجم الصفحة",
+    "fit": "พอดี (حجم مطابق للصورة)",
+    "a4": "A4",
+    "usLetter": "US Letter",
+    "margin": "الهامش",
+    "noMargin": "بدون هامش",
+    "smallMargin": "هامش صغير",
+    "bigMargin": "هامش كبير",
+    "merge": "دمج كل الصور في ملف PDF واحد",
+    "downloadButton": "تحميل PDF",
+    "restartButton": "إعادة البدء",
+    "loading": "جاري التحويل...",
+    "addMore": "إضافة المزيد من الصور"
+  },
+  "pngToPdfPage": {
+    "title": "تحويل الصور إلى PDF",
+    "subtitle": "تحويل الصور إلى ملفات PDF بسهولة",
+    "selectButton": "اختر الصور",
+    "optionsTitle": "خيارات PDF",
+    "orientation": "اتجاه الصفحة",
+    "portrait": "عمودي",
+    "landscape": "أفقي",
+    "pageSize": "حجم الصفحة",
+    "fit": "พอดี (حجم مطابق للصورة)",
+    "a4": "A4",
+    "usLetter": "US Letter",
+    "margin": "الهامش",
+    "noMargin": "بدون هامش",
+    "smallMargin": "هامش صغير",
+    "bigMargin": "هامش كبير",
+    "merge": "دمج كل الصور في ملف PDF واحد",
+    "downloadButton": "تحميل PDF",
+    "restartButton": "إعادة البدء",
+    "loading": "جاري التحويل...",
+    "addMore": "إضافة المزيد من الصور"
+  },
+  "pdfToJpgPage": {
+    "title": "تحويل PDF إلى JPG",
+    "subtitle": "تحويل كل صفحة PDF إلى صورة JPG",
+    "selectButton": "اختر ملف PDF",
+    "optionsTitle": "خيارات JPG",
+    "quality": "جودة الصورة",
+    "normal": "عادية",
+    "high": "عالية",
+    "downloadButton": "تحميل صور JPG",
+    "restartButton": "إعادة البدء",
+    "loading": "جاري التحويل...",
+    "pageLabel": "صفحة {id}",
+    "selectAll": "تحديد الكل",
+    "deselectAll": "إلغاء تحديد الكل"
+  },
+  "addPageNumbersPage": {
+    "title": "إضافة أرقام الصفحات إلى PDF",
+    "subtitle": "إضافة أرقام الصفحات بسهولة إلى ملفات PDF الخاصة بك",
+    "selectButton": "اختر ملف PDF",
+    "optionsTitle": "خيارات الترقيم",
+    "mode": "نمط الترقيم",
+    "singlePage": "صفحة واحدة",
+    "facingPages": "صفحات متقابلة",
+    "position": "موضع الرقم",
+    "positions": {
+      "bottomRight": "أسفل يمين",
+      "bottomLeft": "أسفل يسار",
+      "bottomCenter": "أسفل وسط",
+      "topRight": "أعلى يمين",
+      "topLeft": "أعلى يسار",
+      "topCenter": "أعلى وسط",
+      "middleRight": "منتصف يمين",
+      "middleLeft": "منتصف يسار",
+      "middleCenter": "منتصف وسط"
+    },
+    "margin": "الهامش",
+    "margins": {
+      "small": "صغير",
+      "medium": "متوسط",
+      "big": "كبير"
+    },
+    "pagesToNumber": "الصفحات المراد ترقيمها",
+    "startFrom": "البدء من",
+    "format": "التنسيق",
+    "formats": {
+      "pageN": "صفحة {n}",
+      "pageNofP": "صفحة {n} من {p}",
+      "custom": "تخصيص"
+    },
+    "formatHint": "استخدم {n} لرقم الصفحة، و {p} لإجمالي الصفحات",
+    "textStyle": "نمط النص",
+    "downloadButton": "إضافة أرقام الصفحات",
+    "restartButton": "إعادة البدء",
+    "loading": "جاري التحميل...",
+    "pageLabel": "صفحة {id}"
+  },
+  "extractTextPage": {
+    "title": "استخراج النص من PDF",
+    "subtitle": "استخراج كل النصوص من ملف PDF الخاص بك.",
+    "downloadAll": "تنزيل الكل (ZIP)",
+    "copied": "تم نسخ نص الصفحة",
+    "extracting": "جاري استخراج النصوص...",
+    "noTextOnPage": "لا يوجد نص قابل للاستخراج في هذه الصفحة.",
+    "noTextFound": "لم يتم العثور على نص",
+    "noTextFoundDescription": "لم يتم العثور على نص قابل للاستخراج في هذا الملف.",
+    "errorTitle": "خطأ",
+    "errorDescription": "فشل استخراج النص من ملف PDF."
+  },
+  "pdfOcrPage": {
+    "title": "التعرف الضوئي على الحروف (OCR) لملفات PDF",
+    "subtitle": "استخراج النصوص من ملفات PDF الممسوحة ضوئياً بدقة.",
+    "selectButton": "اختر ملف PDF",
+    "downloadButton": "تنزيل النصوص",
+    "restartButton": "إعادة البدء",
+    "processing": "جاري المعالجة...",
+    "pageLabel": "صفحة {id}",
+    "copied": "تم نسخ نص الصفحة",
+    "downloadAll": "تنزيل الكل (ZIP)",
+    "errorTitle": "خطأ في معالجة الصفحة",
+    "errorDescription": "حدث خطأ أثناء استخراج النص من هذه الصفحة.",
+    "alertTitle": "ملاحظة هامة",
+    "alertDescription": "تعتمد هذه الأداة على الذكاء الاصطناعي وقد تستغرق بعض الوقت لمعالجة كل صفحة. الدقة قد تختلف بناءً على جودة المستند الأصلي."
+  },
+  "splitPdfPage": {
+    "title": "تقسيم ملف PDF",
+    "subtitle": "قسّم ملف PDF، استخرج صفحات محددة.",
+    "selectButton": "اختر ملف PDF",
+    "restartButton": "تغيير الملف",
+    "loading": "جاري التحميل...",
+    "pageLabel": "صفحة {id}",
+    "sidebar": {
+      "pages": "صفحة",
+      "toolsButton": "أدوات التقسيم"
+    },
+    "modes": {
+      "extract": {
+        "title": "استخراج",
+        "description": "حدد الصفحات التي تريد استخراجها في ملف PDF جديد. يمكنك استخدام Shift لتحديد نطاق.",
+        "selectAll": "تحديد الكل",
+        "deselectAll": "إلغاء تحديد الكل",
+        "selectedInfo": "تم تحديد {count} صفحة",
+        "notSelected": "لم يتم تحديد أي صفحات",
+        "buttonText": "استخراج"
+      },
+      "range": {
+        "title": "تقسيم النطاق",
+        "description": "حدد نطاقات الصفحات لإنشاء ملفات PDF متعددة. يمكنك أيضًا النقر على الصفحات لتحديد النطاقات.",
+        "label": "حدد النطاقات",
+        "placeholder": "مثال: 1-3, 5, 8-10",
+        "addRangeButton": "إضافة نطاق آخر",
+        "buttonText": "تقسيم حسب النطاق"
+      },
+      "fixed": {
+        "title": "تقسيم ثابت",
+        "description": "قسّم ملف PDF إلى ملفات متعددة، كل منها يحتوي على عدد ثابت من الصفحات.",
+        "labelPrefix": "تقسيم كل",
+        "labelSuffix": "صفحات",
+        "buttonText": "قسّم"
+      }
+    },
+    "error": {
+      "genericTitle": "خطأ",
+      "invalidFileTitle": "ملف غير صالح",
+      "invalidFileDescription": "الرجاء اختيار ملف PDF صالح.",
+      "loadErrorTitle": "خطأ في تحميل الملف",
+      "loadErrorDescription": "تعذر تحميل ملف PDF. يرجى التأكد من أن الملف صالح.",
+      "aiError": "حدث خطأ أثناء الاتصال بالذكاء الاصطناعي.",
+      "emptyPdf": "لا يمكن إنشاء ملف PDF فارغ. يرجى التحقق من النطاقات أو التحديد.",
+      "splitFailedTitle": "فشل التقسيم",
+      "splitFailedDescription": "حدث خطأ غير متوقع أثناء تقسيم الملف.",
+      "noPagesTitle": "لم يتم تحديد صفحات",
+      "noPagesDescription": "الرجاء تحديد صفحة واحدة على الأقل.",
+      "invalidRange": "الرجاء إدخال نطاق صالح واحد على الأقل.",
+      "invalidFixedNumber": "الرجاء إدخال رقم صالح أكبر من صفر."
+    },
+    "success": {
+      "title": "نجاح!",
+      "description": "تم تقسيم ملف PDF إلى {count} ملف (ملفات)."
+    }
+  },
+   "extractPagesPage": {
+    "title": "استخراج صفحات PDF",
+    "subtitle": "حدد واستخرج صفحات معينة في مستند جديد.",
+    "selectButton": "اختر ملف PDF",
+    "restartButton": "تغيير الملف",
+    "loading": "جاري التحميل...",
+    "pageLabel": "صفحة {id}",
+    "sidebar": {
+      "pages": "صفحات",
+      "toolsButton": "أدوات الاستخراج"
+    },
+    "modes": {
+      "extract": {
+        "title": "استخراج",
+        "description": "حدد الصفحات التي تريد استخراجها في ملف PDF جديد. يمكنك استخدام <b>Shift-Click</b> لتحديد نطاق.",
+        "selectAll": "تحديد الكل",
+        "deselectAll": "إلغاء تحديد الكل",
+        "selectedInfo": "تم تحديد {count} صفحة",
+        "notSelected": "لم يتم تحديد أي صفحات",
+        "buttonText": "استخراج الصفحات"
+      }
+    },
+    "error": {
+      "genericTitle": "خطأ",
+      "invalidFileTitle": "ملف غير صالح",
+      "invalidFileDescription": "الرجاء اختيار ملف PDF صالح.",
+      "loadErrorTitle": "خطأ في تحميل الملف",
+      "loadErrorDescription": "تعذر تحميل ملف PDF. يرجى التأكد من أن الملف صالح.",
+      "aiError": "حدث خطأ أثناء الاتصال بالذكاء الاصطناعي.",
+      "emptyPdf": "لا يمكن إنشاء ملف PDF فارغ. يرجى التحقق من النطاقات أو التحديد.",
+      "splitFailedTitle": "فشل الاستخراج",
+      "splitFailedDescription": "حدث خطأ غير متوقع أثناء استخراج الصفحات.",
+      "noPagesTitle": "لم يتم تحديد صفحات",
+      "noPagesDescription": "الرجاء تحديد صفحة واحدة على الأقل للاستخراج.",
+      "invalidRange": "الرجاء إدخال نطاق صالح واحد على الأقل.",
+      "invalidFixedNumber": "الرجاء إدخال رقم صالح أكبر من صفر."
+    },
+    "success": {
+      "title": "نجاح!",
+      "description": "تم إنشاء {count} مستند (مستندات) PDF جديد بنجاح."
+    }
+  },
+  "mergePdfPage": {
+    "title": "دمج ملفات PDF",
+    "subtitle": "اجمع عدة ملفات PDF في ملف واحد منظم.",
+    "selectButton": "اختر ملفات PDF",
+    "restartButton": "إعادة البدء",
+    "addButton": "إضافة المزيد من الملفات",
+    "downloadButton": "دمج ملفات PDF",
+    "loading": "جاري الدمج...",
+    "dropzone": "أو اسحب ملفات PDF هنا",
+    "pageCount": "صفحة",
+    "pageCounts": "صفحات"
+  },
+  "organizePdfPage": {
+    "title": "تنظيم PDF",
+    "description": "إعادة ترتيب الصفحات أو حذفها أو إضافتها أو تدويرها.",
+    "button": "تنظيم PDF",
+    "blankPage": "صفحة فارغة"
+  },
+  "editPdfPage": {
+    "warning": {
+      "title": "دعم محدود للغة العربية",
+      "description": "دعم اللغة العربية محدود حاليًا. قد لا يتم عرض النص بشكل صحيح. يوصى باستخدام اللغة الإنجليزية."
+    }
+  },
+  "cropPdfPage": {
+    "title": "قص PDF",
+    "subtitle": "قص هوامش صفحات PDF بسهولة.",
+    "previous": "السابق",
+    "next": "التالي",
+    "pageIndicator": "صفحة {current} من {total}",
+    "zoom": "تكبير/تصغير",
+    "applyTo": {
+      "label": "تطبيق القص على",
+      "all": "جميع الصفحات",
+      "current": "الصفحة الحالية ({page})",
+      "range": "نطاق مخصص",
+      "placeholder": "مثال: 1-3,5"
+    },
+    "resetSelection": "إعادة تعيين التحديد",
+    "cropButton": "قص PDF",
+    "startOver": "البدء من جديد",
+    "success": {
+      "title": "نجاح",
+      "description": "تم قص PDF بنجاح."
+    },
+    "errors": {
+      "readError": "تعذر قراءة ملف PDF.",
+      "noCropAreaTitle": "لا توجد منطقة للقص",
+      "noCropAreaDescription": "يرجى تحديد منطقة للقص أولاً.",
+      "cropError": "فشل قص ملف PDF."
+    }
+  },
+  "wordCounter": {
+    "title": "عدّاد الكلمات",
+    "description": "احسب عدد الكلمات والأحرف في النص أو المستند.",
+    "placeholder": "الصق النص هنا أو قم برفع ملف...",
+    "uploadButton": "رفع ملف (txt, pdf)",
+    "words": "الكلمات",
+    "characters": "الأحرف",
+    "readingTime": "وقت القراءة",
+    "minute": "دقيقة",
+    "minutes": "دقائق",
+    "copied": "تم نسخ النص إلى الحافظة!",
+    "errors": {
+      "unsupportedFile": "نوع الملف غير مدعوم. يرجى رفع ملف txt أو pdf.",
+      "fileReadError": "حدث خطأ أثناء قراءة الملف.",
+      "pdfError": "فشل معالجة ملف PDF."
+    },
+    "statsTitle": "الإحصائيات",
+    "copyText": "نسخ النص",
+    "clearText": "مسح النص"
+  },
+  "translatePdfPage": {
+    "title": "ترجمة PDF",
+    "description": "استخراج النص من كل صفحة وترجمته إلى لغة أخرى.",
+    "targetLanguage": "ترجمة إلى:",
+    "translateButton": "ترجمة"
+  },
+  "compressImagePage": {
+    "title": "ضغط الصور",
+    "subtitle": "قم بضغط وتحويل الصور لتقليل حجم ملفاتها.",
+    "selectButton": "اختر الصور",
+    "sidebarTitle": "خيارات الضغط",
+    "quality": "الجودة",
+    "format": "صيغة المخرجات",
+    "compressButton": "ضغط الصور",
+    "downloadAllButton": "تنزيل الكل (ZIP)",
+    "downloadButton": "تنزيل",
+    "startOverButton": "البدء من جديد",
+    "addMoreButton": "إضافة المزيد من الصور",
+    "original": "الأصلي",
+    "compressed": "مضغوط",
+    "reduction": "تخفيض"
+  },
+  "blurImage": {
+    "addShapes": "إضافة أشكال الطمس",
+    "shapeRectangle": "مستطيل",
+    "shapeCircle": "دائرة",
+    "shapeControls": "التحكم في الشكل",
+    "clearSelected": "مسح المحدد",
+    "duplicate": "تكرار المحدد",
+    "blurAmount": "مقدار الطمس العام",
+    "selectedBlurAmount": "مقدار طمس الشكل المحدد",
+    "generalControls": "عناصر التحكم العامة",
+    "changeImage": "تغيير الصورة",
+    "clearAll": "مسح الكل",
+    "applyButton": "تطبيق وتحميل"
+  },
+  "protectPdfPage": {
+    "title": "حماية ملف PDF",
+    "description": "تأمين ملف PDF بكلمة مرور.",
+    "selectButton": "اختر ملف PDF",
+    "buttonText": "حماية PDF",
+    "passwordLabel": "كلمة المرور",
+    "confirmPasswordLabel": "تأكيد كلمة المرور",
+    "errors": {
+      "passwordRequired": "كلمة المرور مطلوبة.",
+      "passwordMismatch": "كلمتا المرور غير متطابقتين.",
+      "protectionFailed": "فشل حماية ملف PDF.",
+      "alreadyProtectedTitle": "الملف محمي بالفعل",
+      "alreadyProtectedDescription": "هذا الملف محمي بكلمة مرور بالفعل."
+    },
+    "success": {
+      "title": "نجاح!",
+      "description": "تمت حماية ملف PDF بنجاح."
+    }
+  },
+    "unlockPdfPage": {
+    "title": "إلغاء قفل PDF",
+    "description": "إزالة كلمة المرور من ملف PDF.",
+    "selectButton": "اختر ملف PDF",
+    "buttonText": "إلغاء قفل PDF",
+    "passwordLabel": "كلمة المرور",
+    "errors": {
+      "unlockFailed": "فشل إلغاء قفل ملف PDF.",
+      "wrongPassword": "كلمة المرور غير صحيحة."
+    },
+    "success": {
+      "title": "نجاح!",
+      "description": "تم إلغاء قفل ملف PDF بنجاح."
+    }
+  },
+  "compressPdfPage": {
+    "compressionLevel": "مستوى الضغط",
+    "levels": {
+      "low": {
+        "title": "ضغط منخفض",
+        "description": "جودة عالية، حجم أكبر."
+      },
+      "medium": {
+        "title": "ضغط متوسط",
+        "description": "جودة جيدة، حجم متوازن."
+      },
+      "high": {
+        "title": "ضغط مرتفع",
+        "description": "أقل جودة، أصغر حجم."
+      }
+    },
+    "compressButton": "ضغط PDF",
+    "successTitle": "نجاح!",
+    "successDescription": "تم ضغط ملف PDF بنجاح.",
+    "errorTitle": "خطأ في الضغط",
+    "originalSize": "الحجم الأصلي",
+    "newSize": "الحجم الجديد",
+    "reduction": "تخفيض",
+    "downloadButton": "تنزيل PDF المضغوط"
+  },
+  "qrCodeGenerator": {
+    "optionsTitle": "إعدادات رمز الاستجابة السريعة",
+    "customization": "تخصيص المظهر",
+    "typeLabel": "نوع رمز الاستجابة السريعة",
+    "fgColor": "لون المقدمة",
+    "bgColor": "لون الخلفية",
+    "quality": "الجودة",
+    "qualities": {
+      "L": "منخفضة",
+      "M": "متوسطة",
+      "Q": "جيدة",
+      "H": "عالية"
+    },
+    "downloadButton": "تنزيل الرمز",
+    "noQrCode": "سيظهر رمز الاستجابة السريعة هنا عند إدخال البيانات.",
+    "types": {
+      "text": { "title": "نص", "label": "النص" },
+      "url": { "title": "رابط", "label": "رابط الموقع (URL)" },
+      "wifi": { "title": "واي فاي", "ssid": "اسم الشبكة (SSID)", "password": "كلمة المرور", "encryption": "التشفير", "noEncryption": "بدون تشفير" },
+      "email": { "title": "بريد إلكتروني", "to": "إلى", "subject": "الموضوع", "body": "الرسالة" },
+      "sms": { "title": "رسالة نصية", "phone": "رقم الهاتف", "message": "نص الرسالة" },
+      "tel": { "title": "مكالمة هاتفية", "label": "رقم الهاتف" },
+      "geo": {
+        "title": "موقع جغرافي",
+        "latlon": "خط العرض، خط الطول",
+        "detectButton": "تحديد موقعي",
+        "detecting": "جاري التحديد..."
+      }
+    },
+    "errors": {
+      "geolocationNotSupportedTitle": "تحديد الموقع غير مدعوم",
+      "geolocationNotSupportedDescription": "متصفحك لا يدعم خاصية تحديد الموقع الجغراfi.",
+      "geolocationErrorTitle": "خطأ في تحديد الموقع",
+      "geolocationErrorDescription": "تعذر الحصول على موقعك. يرجى التأكد من تمكين أذونات الموقع."
+    }
+  }
+}
+
+    
